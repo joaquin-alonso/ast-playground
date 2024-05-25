@@ -15,12 +15,14 @@
     "@babel/traverse": "^7.24.6",
     "@babel/types": "^7.24.6",
     "glob": "^10.4.1",
+    "prettier": "^3.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   },
   "devDependencies": {
     "@types/babel__generator": "^7.6.8",
     "@types/babel__traverse": "^7.20.6",
-    "@types/glob": "^8.1.0"
+    "@types/glob": "^8.1.0",
+    "@types/prettier": "^3.0.0"
   }
 }
