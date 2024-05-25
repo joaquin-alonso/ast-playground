@@ -1,0 +1,22 @@
+{
+  "name": "flash-jscodefshift",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transform": "jscodeshift --transform ./transform.ts --parser babylon ../flash-cards/src/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prettier/sync": "^0.5.2",
+    "jscodeshift": "^0.15.2",
+    "prettier": "^3.2.5"
+  },
+  "devDependencies": {
+    "@types/jscodeshift": "^0.11.11",
+    "@types/prettier": "^3.0.0"
+  }
+}
