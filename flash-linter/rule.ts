@@ -46,7 +46,7 @@ files.forEach((file) => {
           highlightCode: true,
           // Custom message that will be displayed inline
           // with the highlighted code.
-          message: `Found "button" element that should be "Button" component.`,
+          message: `Found a "button" element that should be a "Button" component.`,
         };
 
         const result = codeFrameColumns(

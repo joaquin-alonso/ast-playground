@@ -3,7 +3,7 @@ import * as glob from "glob";
 import { parse } from '@babel/parser';
 import traverse from '@babel/traverse';
 
-// First, find all files relevant files
+// First, find all relevant files
 const files = glob.sync("../flash-cards/src/components/**/*.js");
 
 const propsAndValues: Record<string, string[]> = {};
